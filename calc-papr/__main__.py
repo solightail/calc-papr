@@ -45,12 +45,8 @@ if __name__ == "__main__":
 
     # ファイルパス・ファイル名をしていしていない場合
     if args.filename is None:
-        if args.d == 0:
-            args.path = f'./out/{args.model}/'
-            args.filename = f'N{args.tones}_{args.model}'
-        else:
-            args.path = f'./out/{args.model}/'
-            args.filename = f'N{args.tones}_{args.model}_{args.d}'
+        args.path = f'./out/{args.model}/'
+        args.filename = f'N{args.tones}_{args.model}'
     else:
         args.path = f'./out/'
         args.filename = f'{args.filename}'

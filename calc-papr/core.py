@@ -1,6 +1,4 @@
 """ core priting python """
-import sys
-sys.path.append('./modules/algorithms.py')
 from .modules import algorithms
 from .modules import calc
 
@@ -37,5 +35,3 @@ def program(args):
     formula_context.plot()
     formula_context.display()
     formula_context.save()
-
-    return sys.exit()
