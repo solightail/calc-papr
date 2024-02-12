@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+venv
+/out/**/*.csv
+/out/**/*.svg
+/out/**/*.txt
