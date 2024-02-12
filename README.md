@@ -3,7 +3,6 @@ PAPRの計算を行い、計算結果のまとめ（テキスト）・計算結�
 初期位相は予め指定されたモデルと、マニュアル入力のどちらにも対応しています。
 
 ## コマンドライン引数について
-
 - **tones**: 波数・トーン数  
   int型 (必須)
 - **model**: 初期位相 決定モデル  
@@ -37,12 +36,6 @@ PAPRの計算を行い、計算結果のまとめ（テキスト）・計算結�
 - manual_pi  
   手入力（0~1の数値）で位相を設定（後に2πを掛けて計算をする）
 
-## 必須パッケージ
-- numpy
-- matplotlib
-- pandas
-- scipy
-
 ## 使用方法
 *各コマンドは参考程度で、各環境の状態に応じて実行してください。
 1. venvで仮想環境を作成
@@ -57,5 +50,5 @@ pip install numpy matplotlib pandas scipy
 ```
 3. コマンドラインにて実行
 ```bash
-python -m calc-papr all0 10
+python -m calc-papr 10 all0
 ```
